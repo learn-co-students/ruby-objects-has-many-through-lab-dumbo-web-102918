@@ -63,39 +63,39 @@ Now let's move on to our `Doctor`/`Appointment`/`Patient` domain model.
 
 **The `Doctor` model:**
 
-- The `Doctor` class needs a class variable `@@all` that begins as an empty array.
-- The `Doctor` class needs a class method `.all` that lists each doctor in the
-  class variable.
-- A doctor should be initialized with a name and be saved in the `@@all` array.
-- The `Doctor` class needs an instance method, `#new_appointment`, that takes in a
+<!-- - The `Doctor` class needs a class variable `@@all` that begins as an empty array. -->
+<!-- - The `Doctor` class needs a class method `.all` that lists each doctor in the
+  class variable. -->
+<!-- - A doctor should be initialized with a name and be saved in the `@@all` array. -->
+<!-- - The `Doctor` class needs an instance method, `#new_appointment`, that takes in a
   an instance of the `Patient` class and a date, and creates a new appointment. That
-  appointment should know that it belongs to the doctor
-- The `Doctor` class needs an instance method, `#appointments`, that iterates
-  through all appointments and finds those belonging to this doctor.
+  appointment should know that it belongs to the doctor -->
+<!-- - The `Doctor` class needs an instance method, `#appointments`, that iterates
+  through all appointments and finds those belonging to this doctor. -->
 - The `Doctor` class needs an instance method, `#patients`, that iterates over
   that doctor's appointments and collects the patient that belongs to each
   appointment.
 
 **The `Appointment` model:**
 
-- The `Appointment` class needs a class variable `@@all` that begins as an empty array.
-- The `Appointment` class needs a class method `.all` that lists each appointment
-  in the class variable.
-- An appointment should be initialized with a date (as a string, like `"Monday, August 1st"`), a patient, and a doctor. The appointment should be saved in the
-  `@@all` array.
+<!-- - The `Appointment` class needs a class variable `@@all` that begins as an empty array. -->
+<!-- - The `Appointment` class needs a class method `.all` that lists each appointment
+  in the class variable. -->
+<!-- - An appointment should be initialized with a date (as a string, like `"Monday, August 1st"`), a patient, and a doctor. The appointment should be saved in the
+  `@@all` array. -->
 
 **The `Patient` model:**
 
-- The `Patient` class needs a class variable `@@all` that begins as an empty array.
-- The `Patient` class needs a class method `.all` that lists each patient in the
-  class variable.
-- A patient is instantiated with a name and be saved in the `@@all` array.
-- The `Patient` class needs an instance method, `#new_appointment`, that takes in
+<!-- - The `Patient` class needs a class variable `@@all` that begins as an empty array. -->
+<!-- - The `Patient` class needs a class method `.all` that lists each patient in the
+  class variable. -->
+<!-- - A patient is instantiated with a name and be saved in the `@@all` array. -->
+<!-- - The `Patient` class needs an instance method, `#new_appointment`, that takes in
   an argument of a doctor and a date and creates a new appointment. The
-  appointment should know that it belongs to the patient.
-- The `Patient` class needs an instance method, `#appointments`, that iterates
+  appointment should know that it belongs to the patient. -->
+<!-- - The `Patient` class needs an instance method, `#appointments`, that iterates
   through the appointments array and returns appointments that belong to the
-  patient.
+  patient. -->
 - The `Patient` class needs an instance method, `#doctors`, that iterates over
   that patient's appointments and collects the doctor that belongs to each
   appointment.
